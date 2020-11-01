@@ -1,0 +1,8 @@
+[Unit]
+After=network.service
+
+[Service]
+ExecStart=/opt/minecraft/minecraft.sh
+
+[Install]
+WantedBy=default.target
