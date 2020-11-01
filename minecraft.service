@@ -3,6 +3,7 @@ After=network.service
 
 [Service]
 ExecStart=/opt/minecraft/minecraft.sh
+User=minecraft
 
 [Install]
 WantedBy=default.target
