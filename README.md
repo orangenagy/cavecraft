@@ -1,3 +1,6 @@
+# Setup
+Steps here are to document how to setup a minecraft server. In time this will become cloudformation / terraform enabling you to go from 0 to hero and have your own server.
+
 Bring up ec2 with following qualities:
 1. Inbound runes 22, 33222
 2. IAM instance profile minecraft-server
